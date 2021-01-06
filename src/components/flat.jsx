@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 const Flat = ({
@@ -17,7 +19,7 @@ const Flat = ({
           {name}
         </h2>
       </div>
-      {/* <a className="card-link" href="#" /> */}
+      <a className="card-link" href="#" />
     </div>
   );
 };
